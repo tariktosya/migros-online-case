@@ -3,7 +3,7 @@ package service;
 import model.*;
 import service.interfaces.IStoreService;
 import strategy.DistanceStrategy;
-import strategy.TimeStrategy;
+import strategy.TimeInSameStoreStrategy;
 import strategy.interfaces.IEntryCheckStrategy;
 import utils.FileUtil;
 import utils.MyLogger;
@@ -21,7 +21,7 @@ public class StoreService implements IStoreService {
 
     private final List<IEntryCheckStrategy> strategies = List.of(
             new DistanceStrategy(),
-            new TimeStrategy()
+            new TimeInSameStoreStrategy()
     );
 
     public StoreService() {}

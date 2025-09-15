@@ -8,7 +8,7 @@ import strategy.interfaces.IEntryCheckStrategy;
 import java.time.Duration;
 import java.util.List;
 
-public class TimeStrategy implements IEntryCheckStrategy {
+public class TimeInSameStoreStrategy implements IEntryCheckStrategy {
 
     /**
      * return true if reentries to the same store's circumference over 1 minute

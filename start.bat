@@ -26,7 +26,7 @@ curl -s -X POST -H "Content-Type: application/json" ^
 -d "{\"courierId\":\"402\",\"lat\":41.055783,\"lng\":29.021029,\"timestamp\":1695658800}" http://localhost:8080/courier/location
 echo.
 
-::Reentry ve 1 min filtresi
+::Reentry ve 1 min filter
 curl -s -X POST -H "Content-Type: application/json" ^
 -d "{\"courierId\":\"501\",\"lat\":40.992330,\"lng\":29.124423,\"timestamp\":1695658600}" http://localhost:8080/courier/location
 curl -s -X POST -H "Content-Type: application/json" ^
@@ -35,7 +35,7 @@ curl -s -X POST -H "Content-Type: application/json" ^
 -d "{\"courierId\":\"501\",\"lat\":40.992330,\"lng\":29.124423,\"timestamp\":1695658700}" http://localhost:8080/courier/location
 echo.
 
-:: Test Senaryosu 4 — Total distance ve log kontrolü
+:: Total distance
 curl -s -X POST -H "Content-Type: application/json" ^
 -d "{\"courierId\":\"601\",\"lat\":40.992330,\"lng\":29.124423,\"timestamp\":1695658600}" http://localhost:8080/courier/location
 curl -s -X POST -H "Content-Type: application/json" ^
