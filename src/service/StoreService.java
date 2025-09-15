@@ -18,6 +18,7 @@ import java.util.List;
 
 public class StoreService implements IStoreService {
 
+    private static final String JSON_FILE_NAME = "resources/stores.json";
     private final List<CourierEntries> courierStoreEntries = new ArrayList<>();
 
     private final List<IEntryCheckStrategy> strategies = List.of(
@@ -29,7 +30,7 @@ public class StoreService implements IStoreService {
 
     @Override
     public void checkStores(CourierLocation loc) throws IOException {
-        List<Store> stores = FileReadUtil.parseStores(new File("resources/stores.json"));
+        List<Store> stores = FileReadUtil.parseStores(new File(JSON_FILE_NAME));
 
         for (Store store : stores) {
 

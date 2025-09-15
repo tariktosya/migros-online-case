@@ -25,7 +25,7 @@ public class JsonUtil {
                 .orElseThrow(() -> new IllegalArgumentException("required field : " + key));
     }
 
-    public static String getJsonValue(String json, String key) {
+    private static String getJsonValue(String json, String key) {
         String pattern = "\"" + key + PATTERN_STR;
         var matcher = java.util.regex.Pattern.compile(pattern).matcher(json);
         if (matcher.find()) {

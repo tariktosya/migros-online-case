@@ -10,6 +10,9 @@ import java.util.List;
 
 public class TimeStrategy implements IEntryCheckStrategy {
 
+    /**
+     * return true if reentries to the same store's circumference over 1 minute
+     */
     @Override
     public boolean check(CourierLocation loc, Store store, List<StoreEntry> entries) {
         return entries.stream()
