@@ -2,20 +2,22 @@ package utils;
 
 import model.Store;
 
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FileReadUtil {
+public class FileUtil {
 
     private static final String REGEX = "},\\s*\\{";
     private static final String FORMAT_STR = "^[{]|[}]$";
     private static final String NAME = "name";
     private static final String LAT = "lat";
     private static final String LNG = "lng";
-    private FileReadUtil() {}
+    private FileUtil() {}
 
     public static List<Store> parseStores(File file) throws IOException {
         List<Store> stores = new ArrayList<>();
@@ -42,5 +44,15 @@ public class FileReadUtil {
     private static String stringToJsonString(String str) {
         String cleanStr = str.replaceAll(FORMAT_STR, "");
         return "{" + cleanStr + "}";
+    }
+
+    public static void writeTxtFile(Object obj, String fileName) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true))) {
+
+            writer.write(obj.toString());
+            writer.newLine();
+        } catch (IOException e) {
+            MyLogger.error(e.toString());
+        }
     }
 }

@@ -1,14 +1,11 @@
 package service;
 
-import model.CourierEntries;
-import model.CourierLocation;
-import model.Store;
-import model.StoreEntry;
+import model.*;
 import service.interfaces.IStoreService;
 import strategy.DistanceStrategy;
 import strategy.TimeStrategy;
 import strategy.interfaces.IEntryCheckStrategy;
-import utils.FileReadUtil;
+import utils.FileUtil;
 import utils.MyLogger;
 
 import java.io.File;
@@ -18,6 +15,7 @@ import java.util.List;
 
 public class StoreService implements IStoreService {
 
+    private static final String FILE_NAME = "store.txt";
     private static final String JSON_FILE_NAME = "resources/stores.json";
     private final List<CourierEntries> courierStoreEntries = new ArrayList<>();
 
@@ -30,7 +28,7 @@ public class StoreService implements IStoreService {
 
     @Override
     public void checkStores(CourierLocation loc) throws IOException {
-        List<Store> stores = FileReadUtil.parseStores(new File(JSON_FILE_NAME));
+        List<Store> stores = FileUtil.parseStores(new File(JSON_FILE_NAME));
 
         for (Store store : stores) {
 
@@ -42,8 +40,14 @@ public class StoreService implements IStoreService {
                 StoreEntry entry = new StoreEntry(store.name(), loc.timestamp());
                 entries.add(entry);
                 MyLogger.info("Courier " + loc.courierId() + " entered store " + store.name());
+                insertDataToFile(loc, entry);
             }
         }
+    }
+
+    private static void insertDataToFile(CourierLocation loc, StoreEntry entry) {
+        CourierIntoStore courierIntoStore = new CourierIntoStore(loc.courierId(), entry.storeName(), loc.timestamp());
+        FileUtil.writeTxtFile(courierIntoStore, FILE_NAME);
     }
 
     private boolean isAllSuccessFromStrategyPattern(CourierLocation loc, Store store, List<StoreEntry> entries) {
