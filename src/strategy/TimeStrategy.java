@@ -1,0 +1,22 @@
+package strategy;
+
+import model.CourierLocation;
+import model.Store;
+import model.StoreEntry;
+import strategy.interfaces.IEntryCheckStrategy;
+
+import java.time.Duration;
+import java.util.List;
+
+public class TimeStrategy implements IEntryCheckStrategy {
+
+    @Override
+    public boolean check(CourierLocation loc, Store store, List<StoreEntry> entries) {
+        return entries.stream()
+                .filter(e -> e.storeName().equals(store.name()))
+                .map(StoreEntry::timestamp)
+                .max(java.util.Comparator.naturalOrder())
+                .map(last -> Duration.between(last, loc.timestamp()).toMinutes() >= 1)
+                .orElse(true);
+    }
+}

@@ -1,0 +1,88 @@
+Location received: CourierLocation[courierId=courier2, lat=40.986106, lng=29.1161393, timestamp=+55703-04-14T23:50:00Z]
+Courier courier2 entered store Novada MMM Migros
+Location received: CourierLocation[courierId=courier2, lat=40.986106, lng=29.1161393, timestamp=+55703-04-14T23:50:00Z]
+Courier courier2 entered store Novada MMM Migros
+Location received: CourierLocation[courierId=201, lat=40.9925, lng=29.1245, timestamp=+55665-12-11T16:00:00Z]
+Courier 201 entered store Ataşehir MMM Migros
+Location received: CourierLocation[courierId=202, lat=40.9862, lng=29.1162, timestamp=+55665-12-12T08:40:00Z]
+Courier 202 entered store Novada MMM Migros
+Location received: CourierLocation[courierId=201, lat=40.9926, lng=29.1246, timestamp=+55665-12-12T05:53:20Z]
+Courier 201 entered store Ataşehir MMM Migros
+Location received: CourierLocation[courierId=201, lat=40.9925, lng=29.1245, timestamp=+55665-12-11T16:00:00Z]
+Location received: CourierLocation[courierId=202, lat=40.9862, lng=29.1162, timestamp=+55665-12-12T08:40:00Z]
+Location received: CourierLocation[courierId=201, lat=40.9926, lng=29.1246, timestamp=+55665-12-12T05:53:20Z]
+Location received: CourierLocation[courierId=201, lat=40.9925, lng=29.1245, timestamp=+55665-12-11T16:00:00Z]
+Courier 201 entered store Ataşehir MMM Migros
+Location received: CourierLocation[courierId=202, lat=40.9862, lng=29.1162, timestamp=+55665-12-12T08:40:00Z]
+Courier 202 entered store Novada MMM Migros
+Location received: CourierLocation[courierId=201, lat=40.9926, lng=29.1246, timestamp=+55665-12-12T05:53:20Z]
+Courier 201 entered store Ataşehir MMM Migros
+Courier: 201Total distance: 13.931421100775102
+Location received: CourierLocation[courierId=301, lat=40.99233, lng=29.124423, timestamp=2023-09-25T16:16:40Z]
+Courier 301 entered store Ataşehir MMM Migros
+Location received: CourierLocation[courierId=301, lat=40.986106, lng=29.116129, timestamp=2023-09-25T16:17:40Z]
+Courier 301 entered store Novada MMM Migros
+Location received: CourierLocation[courierId=301, lat=40.99233, lng=29.124423, timestamp=2023-09-25T16:18:00Z]
+Courier 301 entered store Ataşehir MMM Migros
+Location received: CourierLocation[courierId=401, lat=40.99233, lng=29.124423, timestamp=2023-09-25T16:16:40Z]
+Courier 401 entered store Ataşehir MMM Migros
+Location received: CourierLocation[courierId=401, lat=40.986106, lng=29.116129, timestamp=2023-09-25T16:17:40Z]
+Courier 401 entered store Novada MMM Migros
+Location received: CourierLocation[courierId=402, lat=41.006685, lng=28.655226, timestamp=2023-09-25T16:16:40Z]
+Courier 402 entered store Beylikdüzü 5M Migros
+Location received: CourierLocation[courierId=402, lat=41.055783, lng=29.021029, timestamp=2023-09-25T16:20:00Z]
+Courier 402 entered store Ortaköy MMM Migros
+Location received: CourierLocation[courierId=501, lat=40.99233, lng=29.124423, timestamp=2023-09-25T16:16:40Z]
+Courier 501 entered store Ataşehir MMM Migros
+Location received: CourierLocation[courierId=501, lat=40.99233, lng=29.124423, timestamp=2023-09-25T16:17:30Z]
+Location received: CourierLocation[courierId=501, lat=40.99233, lng=29.124423, timestamp=2023-09-25T16:18:20Z]
+Courier 501 entered store Ataşehir MMM Migros
+Location received: CourierLocation[courierId=601, lat=40.99233, lng=29.124423, timestamp=2023-09-25T16:16:40Z]
+Courier 601 entered store Ataşehir MMM Migros
+Location received: CourierLocation[courierId=601, lat=40.986106, lng=29.116129, timestamp=2023-09-25T16:17:40Z]
+Courier 601 entered store Novada MMM Migros
+Location received: CourierLocation[courierId=601, lat=41.006685, lng=28.655226, timestamp=2023-09-25T16:18:40Z]
+Courier 601 entered store Beylikdüzü 5M Migros
+Location received: CourierLocation[courierId=601, lat=41.055783, lng=29.021029, timestamp=2023-09-25T16:19:40Z]
+Courier 601 entered store Ortaköy MMM Migros
+Location received: CourierLocation[courierId=601, lat=40.963246, lng=29.063091, timestamp=2023-09-25T16:20:40Z]
+Courier 601 entered store Caddebostan MMM Migros
+Courier: 301  Total distance: 1963.2515505783008
+Courier: 401  Total distance: 981.6257752891504
+Courier: 402  Total distance: 31165.473742827453
+Courier: 501  Total distance: 0.0
+Courier: 601  Total distance: 81773.81213230024
+Location received: CourierLocation[courierId=301, lat=40.99233, lng=29.124423, timestamp=2023-09-25T16:16:40Z]
+Courier 301 entered store Ataşehir MMM Migros
+Location received: CourierLocation[courierId=301, lat=40.986106, lng=29.116129, timestamp=2023-09-25T16:17:40Z]
+Courier 301 entered store Novada MMM Migros
+Location received: CourierLocation[courierId=301, lat=40.99233, lng=29.124423, timestamp=2023-09-25T16:18:00Z]
+Courier 301 entered store Ataşehir MMM Migros
+Location received: CourierLocation[courierId=401, lat=40.99233, lng=29.124423, timestamp=2023-09-25T16:16:40Z]
+Courier 401 entered store Ataşehir MMM Migros
+Location received: CourierLocation[courierId=401, lat=40.986106, lng=29.116129, timestamp=2023-09-25T16:17:40Z]
+Courier 401 entered store Novada MMM Migros
+Location received: CourierLocation[courierId=402, lat=41.006685, lng=28.655226, timestamp=2023-09-25T16:16:40Z]
+Courier 402 entered store Beylikdüzü 5M Migros
+Location received: CourierLocation[courierId=402, lat=41.055783, lng=29.021029, timestamp=2023-09-25T16:20:00Z]
+Courier 402 entered store Ortaköy MMM Migros
+Location received: CourierLocation[courierId=501, lat=40.99233, lng=29.124423, timestamp=2023-09-25T16:16:40Z]
+Courier 501 entered store Ataşehir MMM Migros
+Location received: CourierLocation[courierId=501, lat=40.99233, lng=29.124423, timestamp=2023-09-25T16:17:30Z]
+Location received: CourierLocation[courierId=501, lat=40.99233, lng=29.124423, timestamp=2023-09-25T16:18:20Z]
+Courier 501 entered store Ataşehir MMM Migros
+Location received: CourierLocation[courierId=601, lat=40.99233, lng=29.124423, timestamp=2023-09-25T16:16:40Z]
+Courier 601 entered store Ataşehir MMM Migros
+Location received: CourierLocation[courierId=601, lat=40.986106, lng=29.116129, timestamp=2023-09-25T16:17:40Z]
+Courier 601 entered store Novada MMM Migros
+Location received: CourierLocation[courierId=601, lat=41.006685, lng=28.655226, timestamp=2023-09-25T16:18:40Z]
+Courier 601 entered store Beylikdüzü 5M Migros
+Location received: CourierLocation[courierId=601, lat=41.055783, lng=29.021029, timestamp=2023-09-25T16:19:40Z]
+Courier 601 entered store Ortaköy MMM Migros
+Location received: CourierLocation[courierId=601, lat=40.963246, lng=29.063091, timestamp=2023-09-25T16:20:40Z]
+Courier 601 entered store Caddebostan MMM Migros
+Courier: 301  Total distance: 1963.2515505783008
+Courier: 401  Total distance: 981.6257752891504
+Courier: 402  Total distance: 31165.473742827453
+Courier: 501  Total distance: 0.0
+Courier: 601  Total distance: 81773.81213230024
