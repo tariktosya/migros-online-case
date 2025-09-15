@@ -1,7 +1,7 @@
 # Migros Online Case
 
 This project is a **restful web application** that tracks courier locations near Migros stores and calculates the total distance traveled.  
-The project is written in **Java 21** and does not use any framework or library.  
+The project is written in **Java 21** and does not use any framework.  
 
 The project also uses **Singleton** and **Strategy** design patterns, making the application flexible and maintainable.
 
